@@ -2,4 +2,12 @@ para criar um novo projeto web, precisa criar uma pasta no gerenciador de arquiv
 após criar a pasta, abra ela no vsCode, abra o terminal e instale os seguintes pacotes
 Pacote 1: npm  install --save-dev typescript ts-node-dev @types/node @types/express
 Após baixar o pacote 1, baixe o pacote 2
+
 Pacote 2: npm install express
+
+npm run dev para rodar o projeto
+
+
+Pacotes adicionais caso necessário: fazer testes
+Pacote 3: npx tsc --init (caso falte algum pacote)
+Pacote 4: mkdir src (caso nao tenha a pasta src)
