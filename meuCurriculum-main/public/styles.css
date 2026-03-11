@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+/* Container principal */
+.container{
+    width:800px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+    border-radius:10px;
+}
+
+/* Títulos principais */
+h1{
+    color:#2c3e50;
+    border-bottom:2px solid #2c3e50;
+    padding-bottom:10px;
+}
+
+/* Subtítulos */
+h2{
+    color:#34495e;
+    margin-top:25px;
+}
+
+/* Parágrafos */
+p{
+    line-height:1.6;
+    font-size:18px;
+}
+
+/* Listas */
+ul{
+    line-height:1.8;
+}
+
+/* Links */
+a{
+    text-decoration:none;
+    color:#2980b9;
+    font-weight:bold;
+}
+
+/* Área de contato */
+.whatsapp{
+    margin-top:20px;
+}
