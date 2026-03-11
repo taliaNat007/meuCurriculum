@@ -1,0 +1,23 @@
+{
+  "name":"meu_curriculum",
+  "version": "1.0.",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo\"Error: no test specidied\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "author": "Natalia Fernandes",
+  "license": "MIT",
+  "dependecies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
